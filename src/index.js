@@ -357,6 +357,7 @@ export class FlashlsHandler {
    */
   onFragmentLoaded_() {
     this.tech_.trigger('bandwidthupdate');
+    this.tech_.trigger('canplay');
     this.captionStream_.flush();
   }
 
