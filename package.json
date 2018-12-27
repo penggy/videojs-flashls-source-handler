@@ -87,11 +87,6 @@
     "defaults",
     "ie 11"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "vjsstandard --fix",
